@@ -64,8 +64,9 @@ python scripts/evaluate.py
 This will:
 1. Load the trained model
 2. Evaluate on the test set
-3. Save metrics to `artifacts/metrics.json`
+3. Save metrics to `artifacts/metrics.json` (Accuracy and F1-macro)
 4. Save classification report to `artifacts/report.json`
+5. Generate `artifacts/confusion_matrix.png` (from `train.py`)
 
 ### Using Docker
 
