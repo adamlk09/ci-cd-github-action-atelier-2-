@@ -1,0 +1,21 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+env/
+venv/
+.env
+
+# Data & Artifacts
+data/*
+!data/.gitkeep
+artifacts/*
+!artifacts/.gitkeep
+
+# Notebooks
+.ipynb_checkpoints
+
+# OS
+.DS_Store
+Thumbs.db
